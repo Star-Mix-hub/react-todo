@@ -1,0 +1,56 @@
+.wrapper{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    min-height: 100vh;
+    width:100%;
+    height:100%;
+    background:#222222;
+}
+.input{
+    height:30px;
+    width:450px;
+    border:none;
+    border: 2px solid rgb(255, 153, 0);
+    background:none;
+    color:white;
+    padding:0px 10px;
+    outline:none;
+}
+.btn{
+    width:100px;
+    height:30px;
+    font-size:12px;
+    background:none;
+    border: 2px solid rgb(255, 153, 0);
+    color:white;
+    cursor:pointer;
+    margin-left:10px;
+    transition: all .2s;
+}
+.btn:hover{
+    box-shadow:5px 0px 10px rgb(255, 153, 0);
+    color:white;
+    background:rgb(255, 153, 0);
+}
+
+.todo-item{
+    position:absolute;
+    cursor:move;
+    min-width:215px;
+    color:black;
+    padding:20px;
+    border-radius:5px;
+}
+.delete{
+    position:absolute;
+    right:5px;
+    top:20px;
+    font-size:20px;
+    background:none;
+    border:none;
+    cursor:pointer;
+}
+.delete:hover{
+    color:red;
+}
